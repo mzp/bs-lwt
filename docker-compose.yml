@@ -1,0 +1,15 @@
+version: "2"
+services:
+  app: 
+    build:
+      context: ./config/docker
+      dockerfile: Dockerfile.app
+    #ports:
+      #- "3000:3000"
+    command: echo "hello world"
+    volumes:
+      - .:/work
+      - persistent-data:/usr/local/bundle/
+volumes:
+  persistent-data:
+    driver: local
