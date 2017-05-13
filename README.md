@@ -7,6 +7,16 @@
 npm install https://github.com/mzp/bs-lwt.git
 ```
 
+and write `bsconfig.json` like this:
+
+```json
+{
+  "name" : "...",
+  "bs-dependencies": ["bs-jest", "bs-lwt_core"],
+  ...
+}
+```
+
 ## :smile: Supported modules
 
  * [Lwt](https://ocsigen.org/lwt/3.0.0/api/Lwt)
