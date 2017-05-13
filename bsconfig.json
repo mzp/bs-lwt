@@ -1,0 +1,8 @@
+{
+  "name" : "bs-lwt",
+  "version": "3.0.0",
+  "sources" : [
+    { "dir" :  "result" },
+    { "dir" :  "lwt/src/core" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bs-lwt_core",
+  "version": "3.0.0",
+  "license": "LGPL",
+  "scripts": {
+    "build": "bsb -make-world",
+    "postinstall": "bsb -make-world && mkdir -p lib/ocaml && find lib/bs -type f -exec cp {} lib/ocaml \\;"
+  },
+  "dependencies": {
+    "bs-platform": "^1.7.3"
+  }
+}
