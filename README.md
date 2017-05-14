@@ -1,5 +1,5 @@
 # :twisted_rightwards_arrows: bs-lwt
-[BuckleScript](https://github.com/bloomberg/bucklescript) bindisgs for [lwt](https://github.com/ocsigen/lwt).
+[BuckleScript](https://github.com/bloomberg/bucklescript) bindings for [lwt](https://github.com/ocsigen/lwt).
 
 ## :gift: Install
 
