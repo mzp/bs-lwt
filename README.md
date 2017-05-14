@@ -1,5 +1,5 @@
 # :twisted_rightwards_arrows: bs-lwt
-[BuckleScript](https://github.com/bloomberg/bucklescript) bindings for [lwt](https://github.com/ocsigen/lwt).
+[BuckleScript](https://github.com/bloomberg/bucklescript) bindings for [Lwt](https://github.com/ocsigen/lwt).
 
 ## :gift: Install
 
@@ -35,4 +35,4 @@ and write `bsconfig.json` like this:
 Lwt 3.0.0 = bs-lwt 3.0.0
 
 ## :copyright: License
-LGPL(same as lwt)
+LGPL(same as Lwt)
