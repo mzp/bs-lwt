@@ -1,6 +1,6 @@
 {
   "name": "bs-lwt",
-  "version": "3.0.0.1",
+  "version": "3.0.0.2-dev",
   "license": "LGPL",
   "scripts": {
     "build": "bsb -make-world"
