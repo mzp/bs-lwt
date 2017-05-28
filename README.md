@@ -12,7 +12,7 @@ Write `bsconfig.json` like this:
 ```json
 {
   "name" : "...",
-  "bs-dependencies": ["bs-jest", "bs-lwt_core"],
+  "bs-dependencies": ["bs-jest", "bs-lwt"],
   ...
 }
 ```
