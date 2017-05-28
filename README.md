@@ -7,7 +7,7 @@
 npm install https://github.com/mzp/bs-lwt.git
 ```
 
-and write `bsconfig.json` like this:
+Write `bsconfig.json` like this:
 
 ```json
 {
@@ -15,6 +15,12 @@ and write `bsconfig.json` like this:
   "bs-dependencies": ["bs-jest", "bs-lwt_core"],
   ...
 }
+```
+
+Build with bsb:
+
+```
+bsb -make-world
 ```
 
 ## :smile: Supported modules
@@ -32,7 +38,9 @@ and write `bsconfig.json` like this:
  * [Lwt_pqueue](https://ocsigen.org/lwt/3.0.0/api/Lwt_pqueue)
 
 ## :package: Versioning rule
-Lwt 3.0.0 = bs-lwt 3.0.0
+Lwt 3.0.0 = bs-lwt 3.0.0.x
+
+x is for binding version.
 
 ## :copyright: License
 LGPL(same as Lwt)
